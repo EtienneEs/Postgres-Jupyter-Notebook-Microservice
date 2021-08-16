@@ -11,5 +11,3 @@ RUN pip install --quiet --no-cache-dir --requirement /tmp/requirements.txt && \
 
 RUN mkdir src
 WORKDIR src/
-
-COPY ./notebooks ./notebooks
